@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--第一步就是设置这个attrs属性：（第二步:在xml中使用自定义控件，并使用这些属性）-->
+    <declare-styleable name="AttriToggleViewListener">
+        <attr name="switch_background" format="reference"/>
+        <attr name="slide_button" format="reference"/>
+        <attr name="switch_state" format="boolean"/>
+    </declare-styleable>
+</resources>
